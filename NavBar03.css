@@ -1,0 +1,46 @@
+/* CSS Document */
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+}
+
+.topnav{
+	display: flex;
+	background-color: #c2c2c2;
+	justify-content: space-between;
+	align-items: center;
+	height: 50px;
+}
+
+.left{
+	display: flex;
+}
+
+a{
+	padding: 13px 25px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.active{
+	background-color: #2196F3;
+	color: #fff;
+	margin-left: 55px;
+}
+
+a:hover{
+	background-color: #69b7f7;
+	color: #fff;
+}
+
+.search{
+	border: none;
+	height: 34px;
+	width: 300px;
+	margin-right: 55px;
+	font-size: 17px;
+}
